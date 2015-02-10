@@ -69,6 +69,12 @@ $ git checkout gh-pages
 <p>今天晚上公司尾牙,祝自己好运!!</p>
 
 <h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>解决xampp在本地运行响应时间长的问题</h3>
+
+<p>之前一直都在用xampp做为本地的web集成服务器,但是响应时间一直都在2S以上,一直都没找到问题,今天看到有人用wamp也遇到这个问题了,说是把链接数据库那的localhost改为127.0.0.1,试了一下速度果然提升了,再上网查了一下说是在windows7下面连接localhost实际上是连接IP6下面的::1,所以还可以改本地的hosts文件,把localhost改到127.0.0.1,这种方法在有多个项目的情况下比去每个项目改配置文件方便</p>
+<p></p>
+
+<h3>
 <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
 <p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
@@ -91,8 +97,5 @@ $ git checkout gh-pages
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-    
-
   </body>
 </html>
