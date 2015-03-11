@@ -9,7 +9,7 @@ jQuery("#qrcode").qrcode({
     height:150, //高度
     text: 'http://www.baidu.com/' //任意内容
 });
-
+alert(234);
 function showHideCode(){
 	$("#showdiv").toggle();
 }
