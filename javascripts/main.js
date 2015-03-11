@@ -10,5 +10,5 @@ jQuery('#qrcode').qrcode(window.location.href);
 //    text: 'http://www.baidu.com/' //任意内容
 //});
 function showHideCode(){
-	$("#showdiv").toggle();
+	jQuery("#showdiv").toggle();
 }
